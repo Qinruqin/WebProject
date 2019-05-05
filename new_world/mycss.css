@@ -1,0 +1,383 @@
+*{ padding: 0;margin: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+#header,#ppt,#wrap,#footer{
+	width: 1000px; 
+	margin:0 auto; 
+	position: relative;
+}
+#header{ margin: 0 auto; height: 50px; /*background: #ccc;*/}
+#header .logo{ 
+	position: absolute; 
+	left: 20px;
+	top: 10px;
+	width: 200px;
+}
+#header .logo img{ 
+	float: left;
+}
+#header .logo span{
+    font-size: 20px;
+    font-style: normal;
+    float: left;
+    margin-top: 6px;
+}
+#header .login{ 
+	position: absolute; 
+	right: 20px;
+	top: 12px;
+	width: 80px;
+	cursor: pointer;
+}
+#header .login img{ 
+	float: left;
+}
+#header .login a{
+    font-style: normal;
+    float: left;
+    margin-left: 2px;
+    margin-top: 4px;
+    color: #e74f4d;
+}
+#header .login a:hover{
+	color:#c20c02;
+	text-decoration: underline;
+}
+#header ul,li{list-style: none;}
+#header ul{
+	position: absolute; 
+	right: 110px; 
+	top:10px; 
+	height:40px;
+}
+#header ul li {
+	display:inline-block; 
+	float:left; 
+	width: 100px; 
+	text-align: center;
+}
+#header ul li a{
+	display: inline-block; 
+	width: 100px; 
+	height: 30px; 
+	line-height: 30px; 
+	padding-bottom: 10px;
+	text-decoration: none; 
+}
+#header ul li a:hover{ 
+	border-bottom: 3px solid #e74f4d; 
+	padding-bottom: 7px;
+	color: #e74f4d;
+}
+#ppt{height: 450px;}
+#ppt img{ 
+	height: 450px; 
+	width: 1000px; 
+	position: absolute;
+}
+#ppt .time{ 
+	position: absolute; 
+	z-index: 2; 
+	left: 100px; 
+	top: 100px;
+	height: 300px;
+	color:#fff;
+}
+.time h1{
+	font-size: 45px;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+.time p{
+	font-size:20px;
+	line-height: 25px;
+}
+#ppt .start{
+	width: 300px; 
+	font-size: 35px;
+	background: #e74f4d; 
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	margin-top:50px;
+	cursor: pointer; 
+}
+#wrap{
+	min-height: 1900px; /*
+	background: #f00;  */
+}
+#wrap .content1{
+	position: absolute;
+    top: 20px; 
+}
+#wrap .pic{
+	float: left;
+	width: 25%;
+	text-align: center;
+	font-size: 14px;
+}
+#wrap .pic img{
+	width: 44px;
+	margin:10px 0;
+}
+#wrap .pic p{
+	line-height: 20px;
+	width: 200px;
+	padding:20px ;
+	padding-right: 26px;
+	border-right:2px solid #ccc;
+}
+#wrap .pic:last-child p{
+	border-right:none;
+}
+#wrap .book {
+    text-align: center;
+    height: 250px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 40px;
+    color: #999;
+    background: #ededec;
+    position: absolute;
+    top: 200px;
+}
+
+#wrap .book img{ 
+	margin: 30px 0;
+}
+#wrap .search {
+    text-align: center;
+    height: 250px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 12px;
+    position: absolute;
+    top: 450px;
+}
+#wrap .search  img{
+	position: relative;
+	height:250px;
+	width:1000px; 
+}
+#wrap .po{ 
+	position: absolute;
+	width: 100%;
+	height: 250px;
+	background: #c1a69d;
+	opacity: 0.5;
+	z-index: 2;
+	top: 0;
+}
+#wrap .ser{
+	position: absolute;
+	z-index: 3;
+	width: 100%;
+	margin: 0 auto;
+	top: 20px;
+	color: #fff;
+}
+#wrap .ser h1{
+	margin: 20px 0;
+	margin-bottom: 10px;
+	font-size: 18px;
+	font-weight: normal;
+}
+#wrap .action{
+	padding: 30px;
+}
+#wrap .action li{
+	float: left;
+	width: 230px;
+	position: relative;
+}
+#wrap .action input{
+	width: 178px;
+	height: 30px;
+	padding: 0 6px;
+	border:2px solid #bf4f49;
+	border-bottom: none;
+}
+#wrap .action li img{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	right: 24px;
+	top: 6px;
+	z-index: 4;
+}
+#wrap .submit{
+	background: #bf4f49;
+	color: #fff;
+	height: 20px;
+	line-height: 20px;
+	font-size: 18px;
+	letter-spacing: 20px;
+}
+#wrap .ul-a{
+	position: absolute;
+	left: 18px;
+	z-index: 3;
+	width: 190px;
+	background: #e3e2e4;
+	border:2px solid #bf4f49;
+	border-top: none;
+	font-size: 16px;
+	text-align: left;
+}
+#wrap .ul-a li{
+	width: 100%;
+	height: 24px;
+	line-height: 24px;
+}
+#wrap .ul-a li a{
+	padding-left: 30px;
+}
+#wrap .ul-a li a:hover{
+	display: block;
+    background: #bf4f49;
+    color: #fff;
+}
+
+#wrap .city{
+	position: absolute;
+	top:700px;
+	height: 420px;
+	width: 100%;
+	background: #f7f7f7;
+	text-align: center;
+}
+#wrap .city-w{
+	width: 800px;
+	margin:20px auto;
+}
+#wrap .city-d img{
+    height: 280px;
+    width: 180px;
+    margin-top: 20px;
+}
+#wrap .city-d{
+	float: left;
+	width: 180px;
+	margin:0 10px;
+}
+#wrap .city-d h2{
+	font-size: 20px;
+	width: 100%;
+	height: 24px;
+	line-height: 24px;
+	padding: 6px 0;
+}
+#wrap .city-d h1{
+	font-size: 26px;
+	padding: 10px 0;
+	letter-spacing: 10px;
+}
+#wrap .city-d p{
+	font-size: 14px;
+	color: #555;
+	height: 20px;
+	line-height: 20px;
+}
+#wrap .time{
+	position: absolute;
+	top: 1120px;
+	height: 450px;
+}
+#wrap .time img{
+	height: 400px;
+	width: 680px;
+	float: left;
+}
+#wrap .time1{
+	float: left;
+	width: 250px;
+	margin:10% 0;
+	margin-left: 26px;
+	text-align: center;
+}
+#wrap .time1 h2{
+	margin:10px auto;
+} 
+#wrap .time1 span{
+	color: #f00;
+}
+#wrap .time1 h3{
+	margin:20px auto;
+	border:1px solid #f00;
+	color:#f00;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	cursor: pointer;
+} 
+#wrap .t-d{
+	position: absolute;
+	top:1520px;
+}
+#wrap .t-d img{
+	width: 320px;
+    height: 400px;
+}
+.time button{
+
+	border:0;
+}
+.time button:hover,.time button:focus{
+	background: #c20c02;
+	border:1px solid #c20c02;
+}
+
+#wrap .t-d .time1{
+	width: 680px;
+	float: left;
+	margin: 0;
+	margin-top:12%;
+}
+#footer{
+	height: 200px;
+	background: #33363f;
+	color: #ddd;
+	padding: 50px 0;
+}
+#footer h1,#footer p, #footer .email, #footer .foot{
+	width: 500px;
+	margin:0 auto;
+	text-align: center;
+	margin-bottom: 10px;
+}
+#footer h1{
+	font-size: 22px;
+	height: 22px;
+	line-height: 22px;
+}
+#footer p{
+	font-size: 12px;
+	height: 20px;
+	line-height: 20px;
+}
+#footer .email{
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+#footer .email input{
+    float: left;
+	width: 372px;
+	height: 40px;
+	padding: 0 10px ;
+}
+
+#footer .email label{
+	width:100px;
+	height: 44px;
+	line-height: 44px;
+	display: inline-block;
+	text-align: center;
+	background: #888;
+	color: #fff;
+}
+#footer .foot{
+	cursor: pointer;
+	margin-top:20px;
+}
