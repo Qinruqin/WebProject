@@ -1,0 +1,447 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+	padding:0;
+	margin:0;
+	font-size:12px;
+}
+bady
+{
+	background-color:#f5f5f5;
+}
+.wrap
+{
+	width:1000px;	
+	margin:0 auto;
+}
+.top{
+	width:100%;
+	height:27px;
+	background:url(../images/top_bg.jpg) repeat-x;
+}
+.top_content
+{
+	width:1000px;
+	line-heght:27px;
+	margin:0 auto;
+}
+
+.top_content ul li
+{
+	list-style-image:url(../images/arrow.jpg);
+	float:right;
+	width:70px;
+}
+.top_content li a
+{
+	text-decoration:none;
+	line-height:27px;
+}
+.top_content li a:link,.top_content li a:visited
+{
+	color:#8e8e8e;
+}
+.top_content li a:hover,.top_content li a:active
+{
+	color:#c00;
+}
+/*以上为页面顶端top部分*/
+.logo
+{
+	height:80px;
+	background-color:#fff;
+}
+.logo_left
+{
+	width:375px;
+	display:inline;
+	float:left;
+}
+.logo_right
+{
+	width:300px;
+	height:28px;
+	display:inline;
+	float:right;
+	color:#8e8e8e;
+	margin-top:30px;
+}
+
+.logo_right img
+{
+	vertical-align: middle;
+	margin-right:10px;
+}
+.tel
+{
+	font-family:"宋体";
+	font-size:22px;
+	color:#c00;
+}
+/*以上慕课网logo部分*/
+
+.nav
+{
+	height:40px;
+}
+.nav_left
+{
+	width:10px;
+	background:url(../images/nav_left.jpg) no-repeat;
+}
+.nav_right
+{
+	width:10px;
+	background:url(../images/nav_right.jpg) no-repeat;
+}
+
+.nav_left,.nav_mid,.nav_right
+{
+	height:40px;
+	float:left;
+	display:inline;
+}
+.nav_mid
+{
+	width:980px;
+	background:url(../images/nav_bg.jpg) repeat-x;
+	line-height:40px;
+}
+.nav_mid_left li
+{
+	list-style-type:none;
+	width:100px;
+	float:left;
+	text-align:center;
+	font-family:"宋体";
+}
+.nav_mid_left li a
+{
+	text-decoration:none;
+	font-size:16px;
+}
+.nav_mid_left li a:link,.nav_mid_left li a:visited
+{
+    color:#fff;	
+}
+.nav_mid li a:hover,.nav_mid li a:active
+{
+	color:#c00;
+}
+.nav_mid_left
+{
+	width:680px;
+}
+.nav_mid_right
+{
+	width:300px;
+	
+}
+.nav_mid_left,.nav_mid_right
+{
+	float:left;
+	display:inline;
+	
+}
+.seach_text
+{
+	width:190px;
+	height:25px;
+	float:left;
+	margin-top: 5px;
+	background:url(../images/search.jpg) no-repeat right center;
+	background-color:#fff;
+	border:1px solid #fff;
+	padding-right:25px;/*防止所输入的文本将那个搜索的图片挡住*/
+}
+/*以上为导航nav部分*/
+
+.ad
+{
+	height:320px;
+	color:red;
+	overflow:hidden;
+}
+
+/*以上为转换图片ad部分*/
+.main {
+	height: 250px;
+	margin-top: 5px;
+	background-color: #FFF;
+}
+.news {
+	width: 340px;
+}
+.products {
+	width: 410px;
+	margin: 0 7px;
+}
+.sidebar {
+	width: 230px;
+	float: left;
+	display: inline;
+	height: 250px;
+}
+.news,.products
+{
+	height:250px;
+	float:left;
+	border:1px solid #e8e8e8;
+	display:inline;
+}
+.title
+{
+	height:35px;
+    fint-family:"宋体";
+	font-size:14px;	
+	font-weight:bold;
+	border-bottom:2px solid #e8e8e8;
+	line-height:35px;
+	color:#786F66;
+}
+.title_left
+{
+	width:70%;
+	float:left;
+	padding-left:20px;
+}
+.title_right
+{
+	width:20%;
+	float:right;
+	text-align:right;
+}
+.title_right a
+{
+	text-decoration:none;
+	color:#999;
+	font-size:10px;
+	font-family:"宋体";
+	padding-right:10px;
+}
+.pic_news
+{
+	height:80px;
+	margin-top:10px;
+	line-height:22px;
+}
+.pic_news img, .product_list img
+{
+	float:left;
+	margin:0 5px;
+}
+.pic_news a,.product_list a
+{
+	color:#c00;
+	text-decoration:none;
+}
+.news_list
+{
+	margin-top:10px;
+}
+.news_list li
+{
+	background: url(../images/list.jpg) no-repeat;
+	list-style-type:none;
+	height:17px;
+	line-height:17px;
+	padding-left:10px;
+	margin:8px;
+    border-bottom:1px dotted #CCC;
+}
+.news_list span
+{
+	float:right;
+	color: #999;
+}
+.news_list a:link,.news_list a:visited
+{
+	text-decoration:none;
+	color:#000;
+}
+.news_list a:hover,.news_list a:active
+{
+	text-decoration:none;
+	color:#f00;
+}
+.product_list
+{
+	height:120px;
+	margin-top:10px;
+	line-height:22px;	
+}
+.product_type
+{
+	width:372px;
+	height:37px;
+	background: url(../images/product_type_bg.jpg) no-repeat;
+	margin:20px auto;
+}
+.product_type li
+{
+	list-style-type:none;
+	text-align:center;
+	float:left;
+	line-height:37px;
+	margin:0 15px;
+}
+.video
+{
+	height: 185px;
+	margin-bottom:10px;
+	border:1px solid #e8e8e8;
+}
+.video_content {
+	height: 150px;
+}
+.copyright
+{
+	width:100%;
+	height:200px;
+	clear:both;
+	background-color:#e8e8e8;
+	margin-top:10px;
+}
+.copyright_content
+{
+	width:1000px;
+	height:180px;
+	margin:0 auto;
+	padding-top:20px;
+}
+.copyright_content li
+{
+	width:200px;
+	list-style-type:none;
+	font-size:18px;
+	font-family:"宋体";
+	text-align:center;
+	float:left;
+	line-height:30px;
+	color:#999;
+	background: url(../images/line.png) no-repeat right center;
+}
+.copyright_content li ul li {
+	font-size: 14px;
+}
+/*以上为index.html的css样式*/
+
+
+/*以下为list.html*/
+.list_main
+{
+	min-height:350px;
+	_height:350px;
+	margin-top:10px;
+	background-color:#fff;
+}
+.news_type
+{
+	width:220px;
+	height:350px;
+	float:left;
+	border:1px solid #e8e8e8;
+}
+.list_box
+{
+	width:770px;
+	min-height:350px;
+	_height:350px;
+	float:right;
+	border:1px solid #e8e8e8;
+	background-color:#fff;
+}
+.news_type h2
+{
+	height:35px;
+	line-height:35px;
+	font-family:"宋体";
+	color:#666;
+	background:url(../images/titile_bg.gif) repeat-x;
+	padding-left:20px;
+}
+.news_type_content
+{
+	height:365px;
+	background:url(../images/content_bg.gif) repeat-x;
+}
+.news_type_content li
+{
+	list-style-type:none;
+	height:30px;
+	line-height:30px;
+}
+.news_type_content li a
+{
+	text-decoration:none;
+	color:#999;
+	background:url(../images/li_bg.gif) no-repeat left center;
+	display:block;
+	padding-left:15px;
+}
+.news_type_content li a:hover
+{
+	color:#009cdf;
+	background:url(../images/li_bg2.gif) no-repeat left center;
+	background-color:#f2f2f2;
+}
+.list_box h2
+{
+	font-family:"微软雅黑";
+	font-size:14px;
+	color:#666;
+	height:35px;
+	line-height:35px;
+	background:url(../images/titile_bg.gif) repeat-x;
+}
+.page
+{
+	height:40px;
+	margin_top:10px;
+	text-align:center;
+}
+.page a
+{
+	border:1px solid #e8e8e8;
+	text-decoration:none;
+	margin:5px;
+	padding:5px 10px;
+	display:inline-block;
+}
+.page a:link,.page a:visited
+{
+	color:#000;
+}
+.page a:hover,.page a:active
+{
+	color:#fff;
+	background-color:#cc1b1b;
+}
+.active
+{
+    color:#fff;
+    background-color: #cc1b1b;
+}
+/*以上为list.html*/
+
+.list_box h1
+{
+	font-family:"微软雅黑";
+	font-size:20px;
+	text-align:center;
+	margin:10px 0;
+}
+.list_box_newInfo
+{
+	color:#666;
+	text-align:center;
+	border-bottom:1px dotted #666;
+}
+.list_box_newsContent
+{
+	font-size:14px;
+	padding:20px;
+	line-height:25px;
+	text-indent:2em;
+}
