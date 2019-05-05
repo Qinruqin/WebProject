@@ -1,0 +1,1016 @@
+*{  padding: 0; margin:0;}
+ul,li,ol,dl{list-style: none;}
+a{text-decoration: none;}
+input{outline:0;letter-spacing:normal; word-spacing: normal; text-transform: none;text-indent: 0px;}
+body{ 
+	background-color: #f8fafc!important;
+	color: #14191e;
+	min-width: 1200px;
+}
+
+@font-face{
+    font-family: 'icomoon';
+    src:url('../fonts/icomoon.eot?e29942');
+    src:url('../fonts/icomoon.eot?e29942#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?e29942') format('truetype'),
+        url('../fonts/icomoon.woff?e29942') format('woff'),
+        url('../fonts/icomoon.svg?e29942#icomoon') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+[class^='icon-'],[class*="icon-"]{
+    font-family: 'icomoon' !important;
+    speak:none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+}
+/**
+**头部样式开始               S 
+**/
+header{
+     min-width: 1200px;
+     height: 72px;
+     background: #fff;
+}
+#head{ 
+     position: relative; display: block;  z-index: 900;
+     width: 100%;height: 72px; box-shadow:0px 2px 10px #ccc;   
+     background: #fff;  
+}
+#logo{float: left; margin:0 28px 0 24px; }
+#logo a,.logo a{display:block;height: 72px;}
+#logo a img, .logo a img{ height: 72px; border:0;}
+.nav-item,.nav-item li{
+     float: left;
+}
+.nav-item a{
+     display: block;position: relative;
+     height: 72px;line-height: 72px;padding: 0 20px;
+     font-size: 16px;text-align: center;color: #4D555D;
+}
+.nav-item a .icon-new{
+     position: relative; display: inline-block;top: -10px;
+     width: 16px; height: 16px;
+     background: url(https://www.imooc.com/static/img/common/new.png) no-repeat;
+}
+.pr10{
+     padding-right: 10px!important;
+}
+#head .search-warp{
+     float: left; position: relative;
+     width: 300px; height: 48px !important; margin-left: 24px; margin-top: 12px;
+}
+.search-warp .searchTag{
+     position: absolute; top: 12px;  right: 40px; bottom:24px; z-index: 100;
+}
+.searchTag a{
+     display: inline-block;
+     line-height: 24px; padding: 0 8px;border-radius: 12px;
+     font-size: 12px;
+     background-color: #f3f5f7;
+}
+.search-area{
+     position: relative;float: right;
+     width: 260px; border: 0 solid #fff; border-bottom: 1px solid #D9DDE1; padding-right:40px; 
+}
+.search-area .search-input,.search-area .btn-search{
+     width: 100%; line-height: 48px;  border: 0; box-sizing:border-box;
+     color: #71777d;
+}
+
+.search-area .search-area-result{
+     z-index: 3; display: none;  position: absolute; top: 50px;
+     width: 100%; padding-top: 12px;
+     font-size: 12px;
+     background: #fff;
+}
+.search-area .search-area-result li{
+     display: block;
+     height: 30px;  line-height: 30px;  padding-left: 20px;
+     color: #888;
+     cursor: pointer;
+}
+.search-area .search-area-result li:hover{
+     color: #000;
+     background: #ddd;
+}
+
+.search-warp .showhide-search{
+     position: absolute; right: 0;  bottom: 12px;
+     width: 20px;  height: 24px;  padding: 0 8px; line-height:inherit;  border-radius: 20px;
+     background-color: #fff; line-height: 24px;
+     color: #A3B2C3;font-size: 14px; text-align: center;
+     cursor: pointer;
+}
+.search-warp .showhide-search:hover{
+     background-color:rgba(255,0,0,.5);
+     color: #F0142E;
+ }
+.search-warp .s-active{
+     border-radius: 12px;
+     border-bottom: 1px solid #D9DDE1;
+}
+.showhide-search .icon-search:before {
+     content: '\e986';
+
+}
+.btn_search{
+     height: 48px; width: 300px;  border: none;  border-bottom: 1px solid #f00;
+}
+#head .login-area{
+     float: right;
+}
+
+.icon-shopping-cart:before {
+    content: "\e929";
+}
+
+.header-unlogin{
+    height: 72px;
+}
+.header-unlogin li{
+    float: left; position: relative; top: 20px;
+    margin-right: 10px;
+    font-size: 14px;
+    color: rgba(255,255,255,.6);
+}
+.header-unlogin li a{
+     display: inline-block;
+     height: 32px; line-height: 32px;
+     color: #71777d;
+}
+.header-unlogin .app-load{
+     width: 60px;
+}
+.icon-apple:before,.icon-android:before{
+     content: "\e643";
+}
+.header-unlogin a:hover {color: #f00;}
+.app-load-box{
+     position: absolute; right: -10px;  top:46px;  z-index: 100;   display: none;
+     width: 256px; height: 108px;  padding: 26px 24px;   border-radius:10px; 
+     background: #fff;
+}
+.app-load-box img{
+     float: left;
+     width: 108px;  height:108px;
+    
+}
+.app-box-con{
+     margin-left: 124px;
+     color: #4D555D; font-size: 12px;
+}
+.header-unlogin .app-box-con a{
+     display: block; 
+     width: 132px;  height: 36px;background:#4D555D;  border-radius: 18px;   margin-top:10px;
+     text-align: center; color: #fff;
+}
+
+.shop-car{
+     height: 30px;  border:1px solid #ccc;   border-radius: 20px;   padding:1px 20px;
+}
+
+.shop-car .icon-shoppcart img{
+     width: 15px;  height: 15px;  margin-right: 6px;
+}
+.shop-car .icon-shoppcart:before{
+    content: '\e8cc';
+    font-size: 16px;
+}
+.header-unlogin:nth-child(1):hover .mycar{display: block;}
+.mycar{
+     position: absolute;   right: -10px;   top:46px; z-index: 100;  display: none;
+     width: 326px; padding: 0 12px;  border-radius:10px; 
+     background: #fff;
+     color: #4D555D;
+}
+.mycar-h{
+     padding: 20px 12px; border-bottom: 1px solid #d9dde1; height: 16px;  line-height: 16px;
+}
+.icon-car:before{content: "\e8cc"; font-size: 60px; color: #888;}
+.car-wrap{
+     height: 284px; padding-top: 40px;
+     text-align: center;
+}
+.car-wrap .car-1{
+     display: inline-block;
+     width: 60px;    height: 60px;  line-height: 60px;  margin-top: 36px; margin-bottom: 12px;border-radius: 50%;
+     background: #93999f;   
+}
+.car-wrap h3{
+     width: 180px;  margin:0 auto;padding-bottom: 24px; border-bottom: 1px solid #d9dde1;
+     color:#4d555d; font-size: 14px;  font-weight: 400;    line-height: 14px; 
+}
+.car-wrap .text{
+     margin-top: 24px;  margin-bottom: 16px;line-height: 12px;
+     text-align: center;   font-size: 12px; color: #93999f;
+}
+.car-wrap .go-link{
+     display: block;
+     height: 12px; line-height: 12px; margin-bottom: 16px;
+     color: rgba(240,20,20,.6);  font-size: 12px;
+}
+.more-box {
+     padding: 16px 12px;
+     border-top:1px solid #d9dde1;
+     color: #4D555D;
+}
+.more-box .my-res{
+     color:#93999f; font-size: 12px;
+}
+.mycar .more-box .go-car{
+    float: right; vertical-align: middle;
+    border-radius: 16px; padding:0 16px; 
+    background: rgba(240,20,20,.8);
+    color: #fff;  font-size: 12px; font-weight: 700; text-align: center;
+}
+.car-wrap .car-1{
+     width: 60px;  height: 60px;
+}
+.mycar-h h2,.mycar-h h5{
+     float: left; 
+     height: 16px;line-height: 16px;  
+     font-size:16px; font-weight:400;
+}
+.mycar-h h5{
+     float: right; 
+     font-size:12px; color: #93999f;
+}
+.header-unlogin .login-in{
+     margin-left: 12px;
+     color: #ccc;
+}
+.header-unlogin .login-in a{
+     margin-right: 12px;
+}
+.header-unlogin .login-in a:last-child{
+     margin-left: 12px;
+}
+/**
+**头部样式结束               E 
+**/
+.clear{
+	clear: both;
+}
+
+/**
+**内容部分开始               S 
+**/
+#main{
+width: 100%;
+min-height: 320px;
+/*	margin-top:80px;*/
+}
+.bk{
+    position: absolute; top: 0;
+    width: 100%; height: 180px; height: 180px; 
+    opacity: .3; 
+    -webkit-filter: blur(100px); 
+    -moz-filter: blur(100px); 
+    -o-filter: blur(100px);
+    -ms-filter: blur(100px);
+    filter: blur(100px);
+    background-size: cover;
+}
+#main>.bgfff{
+    box-shadow: 0 2px 8px 0 rgba(7,17,27,.06);
+    background-color: #fff;
+}
+
+#navbox{
+    height: 444px;padding-top:32px; 
+}
+.nav-banner{
+    position: relative;
+    width: 1152px; height: 444px; margin:0 auto; border-radius: 10px;
+    background-color: #fff; box-shadow: 0 12px 24px  rgba(7,17,27,.2);
+}
+
+#navbox .menuwrap{
+    float: left; position: relative; padding-top: 12px;z-index: 2; position: absolute; left: 0;
+    width: 216px;  height: 432px;border-top-left-radius: 8px; border-bottom-left-radius: 4px;
+    background: #2B333B;
+    font-weight: 200;
+}
+.menuwrap li{
+    float: left;
+    height: 60px; padding-left: 12px;
+    text-align: left;
+}
+.menuwrap li a{
+    display: block;
+    width: 172px; height: 60px;line-height: 60px;padding:0 16px;
+    color: #A8ACAF;
+}
+.menuwrap li a i{
+float: right;
+margin-right: 20px;
+line-height: 60px;
+}
+
+.menuwrap li a:hover{
+background: #6B7176;
+color: #fff;
+border-radius: 2px;
+}
+
+.submenu{
+position: absolute; top:0; left: 216px; display: none;z-index: 5;
+height: 444px; width: 768px;
+background:#fff;
+}
+.menuwrap li:hover .submenu{
+	display: block;
+}
+.inner-box{
+    position: absolute; top: 0;
+min-height: 150px; padding: 12px 48px 32px;width: 670px;
+}
+.con-list{
+    float: left;
+margin: 15px 0; width: 100%;
+}
+.submenu .con-list p{
+float: left;
+height: 36px; line-height: 36px;
+background: #00f;
+}
+.menuwrap li .nav-line{
+    position: relative;
+    width: 670px; height: 1px;
+    color: #000;
+    background:#f3f3f3; 
+    
+}
+.menuwrap li .nav-line span{
+	position: absolute; left: 0; top: -18px;
+     padding: 0 6px;
+    font-size: 12px;
+	background: #fff;
+
+}
+.menuwrap li  .n-nav {
+	float: left;
+    margin-top:20px;
+line-height: 30px;
+
+}
+
+.menuwrap li .n-nav li{
+display: inline-block; float: left;
+margin-right: 16px; padding: none; padding-right: 10px; height: 30px;padding-left: 4px;
+line-height: 30px;
+}
+.menuwrap .n-nav li a{
+    float: left;display: inline-block;
+    padding: 0;width: auto;  margin-left: 0;
+color: #737A80; font-size: 14px;
+line-height: 20px;
+}
+.menuwrap .n-nav li a:hover{
+color: #F0145D;
+line-height: 20px;
+background: none;
+
+}
+.rec-box{
+position: absolute;bottom: 0;left: 0;
+padding: 12px 48px 32px;
+background-color: #F8FAFC;
+}
+.rec-box .rec-con{
+    float: left;
+height: 60px;margin-right: 50px;margin-bottom:36px; 
+}
+.rec-l,.rec-r{
+float: left;
+height: 100%;
+}
+.rec-r{margin-left: 16px;}
+.rec-l img{
+width: 64px;height: 42px;
+}
+.rec-r h5{
+font-size: 12px;font-style: normal;font-weight: normal;color: #07111B;overflow: hidden;white-space: nowrap;
+line-height: 20px;
+}
+.rec-r ul ,.rec-r p{
+    height: 20px;padding: 0;
+font-size: 12px;line-height: 20px;color:#4D555D;
+}
+.rec-r ul li{
+float:left;
+margin-right: 10px;height: 20px;padding-left: 0;
+line-height: 20px;
+}
+.rec-r p {
+float: left;
+margin-top: 10px;
+}
+
+#navbox .menu-right{
+    float: left;position: absolute;left: 216px;
+width: 936px;height: 444px;
+
+}
+#navbox .menu-right .banner{
+    position: relative;
+height: 316px;
+overflow: hidden;
+}
+.banner .banner-dots{
+	position: absolute;	right: 24px;	bottom:20px;	z-index: 100;
+}
+.banner-dots span{
+    display: inline-block;
+	border: 1px solid #000;	width: 8px;	height: 8px;	margin-left: 8px;	border-radius: 50%;
+	background: rgba(7,17,27,.8);
+	cursor: pointer;
+}
+#ban a{
+	display: none;
+}
+#ban a.block{
+	display: block;
+} 
+.banner-dots .active{
+	background: #fff;
+	border-color: #fff;
+}
+.banner-l,.banner-r{
+	position: absolute;	display: block;	top: 50%;	z-index: 4;
+	width: 40px;	height: 60px;	margin-top: -30px;	border-radius: 4px;
+	font-size: 22px;	color:#ccc;	text-align: center;	line-height: 60px;
+	cursor: pointer;
+}
+.banner-l:hover,.banner-r:hover{
+	background: rgba(7,17,27,0.9);
+}
+.banner-l{
+	left: 0;
+}
+.banner-r{
+	right: 0;
+}
+
+#navbox .menu-right .path-banner{
+height: 128px;width: 936px;padding:0  18px;
+}
+.path-banner a{
+float: left;
+width: 180px;height: 128px;
+text-align: center;
+}
+.path-banner a:hover{
+	margin-top: -4px; 
+}
+.path-banner i{
+display: inline-block;
+width: 36px;height: 36px;margin-top: 22px;
+background-position: center  0;background:url('https://www.imooc.com/static/img/index/new/path_new.png') no-repeat;
+background-size: 100%;
+}
+.path-banner .i-web {
+background-position: center 0px;
+}
+.path-banner .i-java {
+background-position: center -36px;
+}
+.path-banner .i-and {
+background-position: center -72px;
+}
+.path-banner .i-php {
+background-position: center -108px;
+}
+.path-banner .i-ios {
+background-position: center -144px;
+}
+
+.path-banner p{
+    margin-top: 4px;
+font-size:14px;color: #07111B; 
+}
+.path-banner span{
+    margin-top: 2px;
+font-size: 12px;font-weight:200;line-height: 16px;color: #93999F;
+}
+/* 菜单  结束 */
+#actual,#newclass ,#newhand,#skill,#forward,#wonderful,#teacher,#star{
+width: 1152px;margin:0 auto;padding-top: 36px;padding-bottom: 48px;
+}
+/* 实战推荐      开始*/
+#actual{
+height: 327px;
+}
+/* 实战推荐      结束*/
+/* 新上好课      开始*/
+#newclass{
+height: 591px;
+}
+.types-title span.newclass-l{background-position:center -72px;}
+.types-title span.newclass-r{background-position:center -108px;}
+/* 新上好课      结束*/
+
+
+.types-title{
+text-align: center;
+color: #93999F;
+font-size: 14px;
+line-height: 36px;
+letter-spacing: .6px;
+font-weight: 400;
+position: relative;
+}
+.types-title em{
+    margin: 0 8px;
+font-size: 20px;line-height: 36px;color: #4D555D;font-weight: 600;font-style: normal;
+}
+
+
+.types-title .tit-icon{
+    display: inline-block;vertical-align: bottom;
+background: url("https://www.imooc.com/static/img/index/icon.png") no-repeat ;background-size:100%;
+width: 56px;height: 36px;
+}
+.types-title span.shizhan-l{background-position: center 0px; }
+.types-title span.shizhan-r{background-position: center -36px; }
+.tit-icon-l{margin-right: 24px;}
+.tit-icon-r{margin-left: 24px;}
+.con-wrap{
+width: 1170px;margin: 0 auto;margin-top:24px;
+}
+
+.con-wrap .con .card{
+    float: left;display: inline-block;position: relative;
+width: 216px;height: 252px;margin-bottom: 12px;margin-right: 18px;
+}
+.new,.hot{
+position: absolute;top: -8px;left:-8px;z-index: 4;
+border:2px solid #fff;border-radius: 12px;padding: 0 8px;
+font-family: dincondm;font-size: 12px;color: #fff;line-height: 20px;
+background-image: linear-gradient(-90deg,#ffcb7b 0,#ffa01a 100%);
+}
+.new{ background-image: linear-gradient(-90deg,#f68688 0,#f02930 100%);}
+.con a:nth-of-type(5n){
+margin-right: 0;
+}
+.con a:hover h3{
+color: #F11414;
+}
+.con a:hover .card-top img{
+box-shadow:0 4px 10px #ccc;
+}
+.con .card-top{
+position: relative;
+}
+.con .card-top img{
+width: 216px;height: 120px;border-radius: 10px;
+}
+.card-top .card-label{
+position: absolute;bottom: 6px;left: 8px;display: inline-block;z-index: 100;
+padding: 4px 8px;border-radius: 12px;margin-bottom: 2px;margin-right: 0;
+font-size: 12px;color: #fff;line-height: 16px;font-weight: 200;
+background: rgba(7,17,27,.4);
+}
+.card .card-content{
+width: 200px;height: 106px;padding: 12px 8px;
+}
+.card-content h3{
+width: 200px;
+color: #07111B;font-size: 16px;font-weight: 400;line-height: 24px;
+}
+
+.card-bot .card-info{
+margin-top: 8px;width: 200px;height: 24px;
+line-height: 24px;color: #93999f;font-size: 12px;
+}
+.card-info li{
+display: inline-block;float: left;
+margin-right:8px; 
+}
+
+.icon-set_sns:before {
+content: "\e7ff";font-size: 8px;
+}
+.on{
+color: #f90;
+}
+.icon-star2:before {
+content: "\e9d9";  width: 12px; 
+}
+.card-bot p{
+width: 200px;height: 20px;
+margin-top: 8px;
+line-height: 20px;color:#40555d;font-size: 12px;
+
+}
+.card-bot p.free{color: #F01414!important;}
+
+/* 新手入门      开始*/
+#newhand{height: 735px;}
+.types-title span.newhand-l{background-position:center -144px;}
+.types-title span.newhand-r{background-position:center -180px;}
+.new-con a{
+    float: left;
+width: 567px;padding: 30px 0;margin-left: 18px;margin-bottom: 36px;border-radius: 8px;
+text-align: center;overflow: hidden;
+background: rgba(7,17,27,.4);
+}
+.new-con a:first-child{
+margin-left: 0;
+}
+.new-con a:hover{
+	box-shadow: 0 6px 14px rgba(7,17,27,.2);
+}
+.new-con h3{
+color: #fff;font-weight: 700;font-size: 20px;letter-spacing: 2px;line-height: 28px;text-shadow:0 2px 2px rgba(7,17,27,.4);
+}
+.new-con p{
+    margin-top: 4px;
+color: #fff;line-height: 20px;font-size: 12px;
+}
+
+.course-banner{
+  position: relative;
+  width: 216px;  height: 120px;
+  text-align:center;
+ 
+}
+.img-up,.img-mid,.img-down{ 
+  position: absolute;
+  margin:0 auto;   height: 120px;  border-radius: 8px;
+  background-size: 100%;  background-position: center;
+  transition:all 0.3s;
+}
+.img-up
+{
+	z-index: 3;   left: 0;    top: 0;
+    width: 216px;
+}
+.img-mid
+{
+  z-index: 2;  left: 4px;  top: 4px;
+  width: 208px;
+  opacity: 0.4;
+}
+.img-down
+{
+  z-index: 1;  left: 8px;   top: 8px;
+ width: 200px;
+  opacity: 0.2; 
+}
+.img-up label{
+    position: absolute;bottom: 6px;left: 8px;display: inline-block;z-index: 100;
+    padding: 4px 8px;border-radius: 12px;margin-bottom: 2px;margin-right: 0;
+font-size: 12px;color: #fff;line-height: 16px;
+/*font-size: 200;*/
+background: rgba(7,17,27,.4);
+
+}
+.course-banner:hover .img-up{top:-20px;}
+.course-banner:hover .img-mid{top:-8px; width: 200px;left:8px;}
+.course-banner:hover .img-down{top:4px; width:184px; left:16px; }
+.course-banner:hover .move{transition:all .3s;}
+.card:hover .move{bottom:22px; transition:all 0.3s;}
+/* 新手入门      结束*/
+/* 技能提升      开始*/
+#skill{height: 735px;}
+.types-title span.skill-l{background-position:center -216px;}
+.types-title span.skill-r{background-position:center -252px;}
+/* 技能提升      结束*/   
+/* 前沿技术      开始*/
+#forward{height: 735px;}
+.types-title span.forward-l{background-position:center -290px;}
+.types-title span.forward-r{background-position:center -326px;}
+/* 前沿技术      结束*/
+/* 精彩手记      开始*/
+#wonderful{
+	height: 1587px;
+}
+.types-title span.wonderful-l{background-position:center -360px;}
+.types-title span.wonderful-r{background-position:center -396px;}
+.wonder-con{
+	/*-webkit-column-count:3;-moz-column-count:3;column-count:3;*/
+    /*column-width:308px;*/
+    position: relative;
+}
+
+.wonder-con .item{
+	display: inline-block;	position: absolute;
+	width: 308px;	padding: 24px 32px 32px;	margin-right: 18px;	margin-bottom: 18px;  border-radius: 8px;
+	background: #FFF;
+	box-shadow: 0 4px 8px rgba(7,17,27,.05);	color: #4D555D;
+}
+.item:hover{
+	box-shadow: -2px 4px 14px rgba(7,17,27,.1);
+}
+.item .topic{
+    height: 24px;   margin-bottom: 8px;
+	font-size: 12px; line-height: 24px;
+}
+.item label.bg-g{
+    display: block;
+	padding: 0 12px; width: 48px; border-radius: 16px;
+    color: #fff;
+    background: #7FD99D;	
+}
+.a-link a{
+    float: left;
+	width: 224px;	
+}
+.a-link .font-16{
+    width: 224px;
+	font-size: 16px;	line-height: 24px;	color: #07111B;
+}
+.c-g,.a-link .c-g{
+	color: rgba(0,180,60,.8);
+}
+.c-b{
+	color: rgba(0,140,200,.6);
+}
+.item .a-link{width:308px;display: inline-block; margin-bottom: 12px;}
+
+.a-link img{
+	width: 72px;	height: 72px;	border-radius: 8px;
+}
+.item .article-tit{color: #07111B;}
+.article-tit img{
+	width: 72px;	height: 48px;
+
+}
+.item .topic-content{
+	margin-top: 12px;
+	font-size: 12px; line-height: 24px;	font-weight: 200;
+}
+.item .b-info{
+    display: block;
+	width: 100%;	height: 24px; margin-top: 12px;
+	line-height: 24px;
+}
+.b-info a{
+	height: 24px;
+	line-height: 24px;
+}
+.b-info p{
+	float: left;
+}
+.b-info p span{margin-right: 10px;}
+.font-12{
+	font-size: 12px;	font-weight: 200;
+}
+.font-14{
+   width: 224px;
+	font-size: 14px;
+}
+.r{
+	float: right;
+}
+.tit-line{
+        position: relative;
+	width: 308px;	height: 1px;	margin: 24px 0;
+	background: #D9DDE1;
+}
+.tit-line label{
+	position: absolute;	top: -8px;	left: 0;
+	padding-right: 12px;   height: 16px;
+	color: #93999f;    line-height: 16px;font-weight: 200; font-size: 12px;
+	background-color: #fff;
+}
+.c-c{
+color: #4D555D;
+}
+.icon-right:before{
+  /*  content:"/e625";*/
+}
+/* 精彩手记      结束*/
+.elite-bg{
+    height: 408px;
+	background: url("https://www.imooc.com//static/img/index/eliteTbg.jpg") center center no-repeat  #f3f5f7;
+	background-size: cover;
+}
+/* 精英名师      开始*/
+
+#teacher{
+	height: 408px;
+}
+
+.types-title span.teacher-l{background-position:center -436px;}
+.types-title span.teacher-r{background-position:center -490px;}
+.c-w,.c-w em{color: #fff;}
+.teacher-con{
+	margin-top: 40px;	height: 248px;
+}
+.teacher-con .tea-box{
+    float: left;display: inline-block; position: relative;
+	width: 216px;	height: 248px; margin-right: 18px; border-radius: 12px; box-shadow: 0 4px 8px rgba(7,17,27,.05);
+	background:rgba(255,255,255,.8);	
+	text-align: center;	
+}
+.teacher-con a:last-child{
+	margin-right: 0;
+}
+.teacher-con a:hover{
+	background: #fff;
+}
+.teacher-con a:hover .tea-block{
+	display: none;
+}
+.teacher-con a:hover .tea-box-con{
+	height: 170px;	margin-top: 60px;
+	text-align: left;
+}
+.teacher-con a:hover img{
+	width: 64px;	height: 64px;	margin-left: -32px;
+}
+.tea-box img{
+    position: absolute; top: -16px; left: 50%;
+	width: 96px;	height: 96px;	margin-left: -48px;	border-radius: 48px;
+}	
+.teacher-con .tea-box h3{
+	margin-top: 92px;
+	line-height: 24px;	font-size: 16px;	font-weight: 700;	color: #07111b;
+}
+.tea-block p{
+    margin-bottom: 12px;
+	color: #4D555D;	font-size: 12px;	line-height: 24px;	
+}
+.tea-box-con{
+	width: 144px;	height: 72px; margin: 0 36px;
+	overflow: hidden;	
+	line-height: 24px;	font-size:12px;	color: #4D555D;	text-align: left;
+}
+
+/* 精英名师      结束*/
+/* 全明星      开始*/
+#star{
+	height: 375px;
+}
+.types-title span.star-l{background-position:center -504px;}
+.types-title span.star-r{background-position:center -540px;}
+.big-list{ width: 544px; height: 98px; margin: 0 auto; margin-bottom: 48px; margin-top: 38px;}
+.big-list dd{width: 136px; height: 98px; float: left;}
+.big-list dd .big-item-photo{
+    position: relative;
+ width: 56px; margin: 0 auto; height: 56px; 
+}
+.big-list dd .big-item-photo img{ width: 56px; height: 56px; border-radius: 50%; box-shadow: 0 8px 16px 0 rgba(7,17,27,.1);}
+.big-list dd span{
+    position: absolute; top: -16px;left: 15px;
+	width: 26px;	height: 18px;	
+	background: url("https://www.imooc.com/static/img/index/champion.png") no-repeat;
+	background-size: 100%;
+}
+.big-list dd .purple{background-position: center 0;}
+.big-list dd .green{background-position: center -18px;}
+.big-list dd .blue{background-position: center -36px;}
+.big-list dd .yellow{background-position: center -54px;}
+.big-list dd .big-item-name{ margin-top: 8px;color: #07111B; font-size: 14px; line-height: 16px; text-align: center;}
+.big-list dd .big-item-tit{color: #93999F; font-size: 12px; font-weight: 200;  text-align: center;}
+
+.other-list{ width: 888px;margin:0 auto; height: 152px;}
+.other-list .other-item{ 
+    position: relative;float: left;
+ width: 48px; height: 48px; border-radius: 48px;margin-right: 28px; margin-bottom: 24px;
+	box-sizing:border-box; border:2px solid #fff; transition:all .3s;
+}
+.other-item img{height: 48px; width: 48px; border-radius: 50%; background-color: #f3f5f7; box-sizing:border-box; border:2px solid #fff;}
+.other-list dd div{/*background-color: #653ddd;*/ border-radius: 8px; position: absolute;top: -110px; left: -83px;color:#fff; font-size:12px;width: 202px;height: 90px; 
+	text-align: center; box-sizing:border-box; padding: 13px 24px 0; display: none;}
+.other-list dd div .cur{
+	position: absolute;	bottom: -9px;	left: 93px;
+    line-height: 20px;	font-size: 40px;
+}
+.other-list dd.blue div{background-color: #008CC8; }
+.other-list dd.blue div .cur{color: #008CC8;}
+.other-list dd.green div{background-color: #00B46D; }
+.other-list dd.green div .cur{color: #00B46D;}
+.other-list dd.purple div{background-color: #653ddd; }
+.other-list dd.purple div .cur{color: #653ddd;}
+
+.other-list dd div .title{padding-bottom: 2px;}
+.other-list dd div .dec{ margin-top: 10px;}
+.other-item a:hover img{ border: 2px solid #653ddd; }
+.other-item a:hover div{display: block;}
+/* 全明星      结束*/
+/**
+**内容部分结束               E
+**/
+footer{
+	padding: 36px 0;	height: 36px;
+}
+.foot{
+    position: relative;
+	width: 1200px;	margin:0 auto;
+	color: #93999F;
+}
+.footer-wrap{
+	position: absolute;	right: 0;	top: 0;
+}
+.footer-link,.footer-copyright{
+	float: left;
+	width: 100%;
+}
+.foot-box{
+    float: left; 
+	margin-right:32px;	height: 60px;
+    font-size: 12px;	
+}
+.foot-box:last-child{
+	margin-right: 0;
+}
+.foot-box a{
+    display: inline-block;
+	width: 32px;	height: 32px; margin: 0 9px;
+	color: #93999F;	text-align: center;	
+	background:url("https://www.imooc.com//static/img/idx-btm.png") no-repeat;
+}
+.foot-box a.footer-sns-weixin{
+    position: relative;
+	background-position: -52px -221px;	
+}
+.foot-box a.footer-sns-weibo{
+	background-position: 0 -221px;
+}
+.foot-box p{
+    margin-top: 4px;
+	text-align: center;	line-height: 16px;
+}
+.footer-sns-weixin i{
+	position: absolute;bottom:30px;    left: -77px;    display:none;   z-index: 100;
+	width: 172px;	height: 212px;
+	background: url("https://www.imooc.com//static/img/common/elevator.png?t=2") no-repeat;
+    background-position: center -10px;	
+}
+.footer-sns-weixin:hover i{display: block;}
+.footer-link a{
+	
+	float: left;
+    margin: 0 10px;
+	line-height: 28px;color: #93999F;	font-size: 14px;
+	
+}
+.footer-link a:hover{
+	color: #4d555d;
+}
+.footer-copyright{
+    padding-left: 10px; margin-top: 8px;
+	font-size: 12px;	line-height: 24px;
+}
+
+/*侧边栏     开始*/
+#aside{
+	z-index: 899; 	position: fixed;	right: 0;	bottom:150px;
+	width: 26px;padding: 0 16px; box-shadow: 0 4px 12px 0 rgba(7,17,27,.1);
+	background-color: #fff;
+}
+#aside a{display:block;
+    width: 26px; height: 24px; padding: 16px 0; border-bottom:1px solid #edf1f2;
+	font-size: 22px;line-height: 20px;color: #b5b9bc;text-align: center; /*position: relative; box-sizing:border-box;*/}
+#aside a:last-child{border: 0;}
+#aside a i{ font-size: 24px;color: #D9DDE1;}
+#aside a span{display: none;}
+#aside a.aside-totop{
+		display: none;
+}
+#aside a div.aside-app-box{background-position: center -250px; }
+#aside a div.aside-wx-box{background-position: center 0px; }
+#aside div{ 
+	position: absolute; 	right: 48px;	bottom: 0; display: none;
+    width: 200px;   height: 230px;
+	background: url("https://www.imooc.com/static/img/common/elevator.png?t=2") no-repeat;	background-size: 100%;
+}
+#aside a:hover div{display: block;}
+#aside a:hover i{display: none;}
+#aside a:hover span{ display: block; font-size: 12px; line-height: 12px; font-weight: 200; color:rgba(7,17,27,1);}
+/*@media screen and (max-height: 300px){
+	.aside-weixin{
+		display: block;
+	}
+}*/
+[class*=" icon-"], [class^=icon-] {
+    font-family: icomoon!important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-qus:before{
+    content: '\ea09';
+}
+.icon-app:before{
+    content: '\e958';
+}
+.icon-wx:before{
+    content: '\e970';
+}
+.icon-feedback:before{
+    content: '\e85a';
+}
